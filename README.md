@@ -6,7 +6,7 @@ crossing maximum possible number of them »
 [clck](https://ioinformatics.org/files/ioi1990round2.pdf).
 ```json
 y|       h---------g      If we consider this case, than 
- |       |         |      all vertial lines from
+ |       |         |      all vertical lines from
  |       e---------f      B to C are solutions.
  |       '         '
  |  d----'--c      '
@@ -29,7 +29,7 @@ y|       h---------g      If we consider this case, than
  projections. In this case all     `.   |.`a-------b`                  _____________
  lines perpendicular to y` in the    `..`        .`                    _____________
  interval [H, B], vich is the         H`o------.`---------------x           
- intersection of ze sement projections   `.  .`                             
+ intersection of ze segment projections  `.  .`                             
  over y`, will cross both segments.        ``                               
                                            B `.                             
                                                `.                           
@@ -45,7 +45,7 @@ transformed as follows:
 ┗  ┛ ┗            ┛┗ ┛                                      
 ``` 
 Zo we can use this formula to find segment scope projections over a given coor.
-The resultig list will be similar to the ***Guard Shedule*** in *prob1*.
+The resulting list will be similar to the ***Guard Schedule*** in *prob1*.
 
 #### University of Sussex sucks! *
 Before ve stated 2 methods for counting intersections, there is a third:
@@ -74,7 +74,7 @@ intasections for both *x* and *y* projections and scan for ze maximum one, thatz
 
 Here we have *2* segments *(1,1,2,3)* and *(3,3,4,5)* and ze oufut iz:
 ```json
-In [1]: system("./str8.py")
+In [1]: system("./Str8.py")
 angle    : 45
 coor     : y
 endpoints: [(-0.7071, 1.4142)]
