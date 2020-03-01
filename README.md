@@ -1,3 +1,4 @@
+![](nes.gif)
 #### Str8
 This one iz easy becoz it's wery zimilar to the first part of the previous problem. 
 Here there are some squares called *segments* and ve have to find a straight line
